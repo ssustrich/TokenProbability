@@ -23,32 +23,27 @@ fn main() {
             }
           print!("  ");
         for i in 0..pinDigits.len() {
-           //println!("{}", xs[i]);
            if pinDigits[i] == 2 {
                 pinMeta[0] = pinMeta[0] + 1;
            }
-                      if pinDigits[i] == 3 {
+           if pinDigits[i] == 3 {
                 pinMeta[1] = pinMeta[1] + 1;
            }
-                      if pinDigits[i] == 4 {
+           if pinDigits[i] == 4 {
                 pinMeta[2] = pinMeta[2] + 1;
            }
-                      if pinDigits[i] == 5 {
+           if pinDigits[i] == 5 {
                 pinMeta[3] = pinMeta[3] + 1;
            }
-                      if pinDigits[i] == 6 {
+           if pinDigits[i] == 6 {
                 pinMeta[4] = pinMeta[4] + 1;
            }
-
         }
-        
         
         for j in 0..pinMeta.len() {
             print!("{} ", pinMeta[j] )
         }
-
         println!("-----",);
-        //println!("{}: {}", n, xs[4].to_string());
         pin_size_counter = 0;
         n+=1;
         }
